@@ -1,0 +1,106 @@
+:root {
+  --upalmn0: 0;
+  --upalmn1: 4px;
+  --upalmn2: 5.6px;
+  --upalmn3: 7.84px;
+  --upalmn4: 10.976px;
+  --upalmn5: 15.3664px;
+  --upalmn6: 21.513px;
+  --upalmn7: 30.1181px;
+  --upalmn8: 42.1654px;
+  --upalmn9: 59.0316px;
+  --upalmnm: 6px;
+  --upalmnn: 9px;
+  --upalmnq: 2px;
+  --upalmnr: system-ui;
+  --upalmnt: 1rem;
+  --upalmnu: 1.3rem;
+  --upalmnv: 1.69rem;
+  --upalmnw: 2.197rem;
+}
+
+* {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0, 0, 0 0);
+  -webkit-touch-callout: none;
+  font-smooth: antialiased;
+  background-color: #0000;
+  position: relative;
+}
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  -webkit-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--upalmnr);
+  height: 100vh;
+  text-rendering: optimizespeed;
+  line-height: 1.4;
+  overflow-x: hidden;
+}
+
+form {
+  /* Disable flex here */
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+fieldset {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  padding-block: var(--upalmn1);
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  list-style: none;
+  display: flex;
+}
+
+ul > li {
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
+ul input[type="radio"] {
+  appearance: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+ul label {
+  z-index: 1;
+  padding-block: var(--upalmn4);
+  text-align: center;
+  width: 100%;
+  background: 0 0;
+}
+
+button[type="submit"] {
+  border-width: var(--upalmnq);
+  border-style: solid;
+  border-radius: var(--upalmnn);
+  padding: var(--upalmn4);
+}
