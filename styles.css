@@ -61,6 +61,8 @@ fieldset {
   border: none;
   margin: 0;
   padding: 0;
+  /* Suggestion from ahmad.saleem792@gmail.com  */
+  min-inline-size: min-content !important;
 }
 
 ul {
